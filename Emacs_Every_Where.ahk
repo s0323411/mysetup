@@ -4,7 +4,9 @@
 ;; https://github.com/usi3/emacs.ahk/blob/master/emacs.ahk
 ;; https://github.com/boblu/EmacsEverywhere
 
-;; 設定下面的程式使用下面 AHK 的設定，本來不用設定此名單的，不過可能有些設定有誤，導致 Emacs 快速鍵有部分無法操作，只好把需要的加入白名單，避免 Emacs 無法使用。本來想要像模擬滑鼠一樣加入轉換的快速鍵，但是想到大部分情況不會變動，就不加了，反正在系統列圖示按右鍵可以很方便的暫停。
+;; 設定下面的程式使用下面 AHK 的設定，本來不用設定此名單的，不過可能有些設定有誤，導致 Emacs 快速鍵有部分無法操作，只好把需要的加入白名單，避免 Emacs 無法使用。
+
+Ins::Suspend  ;; 按下 insert 切換 使用/關閉 此設定
 
 GroupAdd, editor, ahk_exe thunderbird.exe
 GroupAdd, editor, ahk_exe notepad++.exe
@@ -264,15 +266,15 @@ Return
 ;;  #前面 < 代表左視窗鍵， >代表右視窗鍵
 ;; R 前面的數字代表速度，1 最快，100 最慢
 
-;; Ins::Suspend  ;; 按下 insert 變換操作
-;; >#w::MouseMove, 0, -20, 1, R  ;; 上
-;; >#s::MouseMove, 0, 20, 1, R   ;;  下
-;; >#a::MouseMove, -20, 0, 1, R  ;; 左
-;; >#d::MouseMove, 20, 0, 1, R	;; 右
-;; >#q::Send, {LButton}  ;; 左鍵
-;; Return
-;; >#e::Send, {RButton} ;;  右鍵
-;; Return
+
+>#w::MouseMove, 0, -20, 1, R  ;; 上
+>#s::MouseMove, 0, 20, 1, R   ;;  下
+>#a::MouseMove, -20, 0, 1, R  ;; 左
+>#d::MouseMove, 20, 0, 1, R	;; 右
+>#q::Send, {LButton}  ;; 左鍵
+Return
+>#e::Send, {RButton} ;;  右鍵
+Return
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
