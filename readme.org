@@ -1,43 +1,71 @@
 因為學習使用 Emacs，對於其他程式無法套用基本的快速鍵而感到不方便，後來想到 Auto Hot Key 這個聽說好久卻沒有嘗試過的神器，Google 找到了一些設定好的 Script，修改了一些符合我自己習慣的鍵位，大部分程式都可以享受 Emacs 快速鍵的方便了，真是感謝網路上高手們無私的分享！
 
 檔案是 Copy 下面的設定
+
 https://github.com/usi3/emacs.ahk/blob/master/emacs.ahk
+
 https://github.com/boblu/EmacsEverywhere
+
 
 按下 insert 切換操作
 
 快速鍵總表
+
 C-p	Previous line (move up)
+
 C-n	Next line (move down)
+
 C-f	Forward one character (move right) Note: conflicts with normal "find" shortcut
+
 C-b	Back one character (move left) Note: conflicts with normal "bold" shortcut
+
 M-f	Forward one word
+
 M-b	Back one word
+
 C-a	Start of line Note: conflicts with normal "Select all" shortcut
+
 C-e	End of line
+
 C-<	Start of page
+
 C->	End of page
 
+
 C-/	Undo 還原
+
 C-d	Delete character after cursor
+
 M-d	Delete word after cursor
+
 C-h   刪除前一個字元
+
 M-h  刪除前一個字
+
 C-k	Kill line  在刪除遊標後面的字串
+
 M-k   copy line 複製行
+
 C-w	Cut region
+
 M-w	Copy region
+
 C-y	Paste (no kill ring, so don’t get full Emacs yank ability)
 
 M-a   全選
+
 C-r   搜尋
 
 C-j   下一行並且縮排 
+
 C-m   Return / Enter / 下一行
+
 C-o   插入一行
 
 C-g   ESC （取消）
+
 C-q   Alt+F4（離開）
 
 模擬滑鼠
+
 右邊的Win+W/S/A/D  => 上下左右，右邊的Win+Q/E => 左右鍵
