@@ -1,10 +1,10 @@
-;;  ¦]?¨Ï¥Î Emacs¡A¹ï©ó¨ä¥Lµ{¦¡µLªk®M¥Î°ò¥»ªº§Ö³tÁä¦Ó·P¨ì¤£¤è«K¡A«á¨Ó·Q¨ì Auto Hot Key ³o­ÓÅ¥»¡¦n¤[«o¨S¦³¹Á¸Õ¹Lªº¯«¾¹¡AGoogle §ä¨ì¤F¤@¨Ç³]©w¦nªº Script¡A­×§ï¤F¤@¨Ç²Å¦X§Ú¦Û¤v²ßºDªºÁä¦ì¡A¤j³¡¤Àµ{¦¡³£¥i¥H¨É¨ü Emacs §Ö³tÁäªº¤è«K¤F¡A¯u¬O·PÁÂºô¸ô¤W°ª¤â­ÌµL¨pªº¤À¨É¡I
+;;  å› ç‚ºä½¿ç”¨ Emacsï¼Œå°æ–¼å…¶ä»–ç¨‹å¼ç„¡æ³•å¥—ç”¨åŸºæœ¬çš„å¿«é€Ÿéµè€Œæ„Ÿåˆ°ä¸æ–¹ä¾¿ï¼Œå¾Œä¾†æƒ³åˆ° Auto Hot Key é€™å€‹è½èªªå¥½ä¹…å»æ²’æœ‰å˜—è©¦éçš„ç¥å™¨ï¼ŒGoogle æ‰¾åˆ°äº†ä¸€äº›è¨­å®šå¥½çš„ Scriptï¼Œä¿®æ”¹äº†ä¸€äº›ç¬¦åˆæˆ‘è‡ªå·±ç¿’æ…£çš„éµä½ï¼Œå¤§éƒ¨åˆ†ç¨‹å¼éƒ½å¯ä»¥äº«å— Emacs å¿«é€Ÿéµçš„æ–¹ä¾¿äº†ï¼ŒçœŸæ˜¯æ„Ÿè¬ç¶²è·¯ä¸Šé«˜æ‰‹å€‘ç„¡ç§çš„åˆ†äº«ï¼
 
-;; ÀÉ®×¬O Copy ¤U­±ªº³]©w
+;; æª”æ¡ˆæ˜¯ Copy ä¸‹é¢çš„è¨­å®š
 ;; https://github.com/usi3/emacs.ahk/blob/master/emacs.ahk
 ;; https://github.com/boblu/EmacsEverywhere
 
-;; ³]©w¤U­±ªºµ{¦¡¨Ï¥Î¤U­± AHK ªº³]©w¡A¥»¨Ó¤£¥Î³]©w¦¹¦W³æªº¡A¤£¹L¥i¯à¦³¨Ç³]©w¦³»~¡A¾É­P Emacs §Ö³tÁä¦³³¡¤ÀµLªk¾Ş§@¡A¥u¦n§â»İ­nªº¥[¤J¥Õ¦W³æ¡AÁ×§K Emacs µLªk¨Ï¥Î¡C¥»¨Ó·Q­n¹³¼ÒÀÀ·Æ¹«¤@¼Ë¥[¤JÂà´«ªº§Ö³tÁä¡A¦ı¬O·Q¨ì¤j³¡¤À±¡ªp¤£·|ÅÜ°Ê¡A´N¤£¥[¤F¡A¤Ï¥¿¦b¨t²Î¦C¹Ï¥Ü«ö¥kÁä¥i¥H«Ü¤è«Kªº¼È°±¡C
+;; è¨­å®šä¸‹é¢çš„ç¨‹å¼ä½¿ç”¨ä¸‹é¢ AHK çš„è¨­å®šï¼Œæœ¬ä¾†ä¸ç”¨è¨­å®šæ­¤åå–®çš„ï¼Œä¸éå¯èƒ½æœ‰äº›è¨­å®šæœ‰èª¤ï¼Œå°è‡´ Emacs å¿«é€Ÿéµæœ‰éƒ¨åˆ†ç„¡æ³•æ“ä½œï¼Œåªå¥½æŠŠéœ€è¦çš„åŠ å…¥ç™½åå–®ï¼Œé¿å… Emacs ç„¡æ³•ä½¿ç”¨ã€‚æœ¬ä¾†æƒ³è¦åƒæ¨¡æ“¬æ»‘é¼ ä¸€æ¨£åŠ å…¥è½‰æ›çš„å¿«é€Ÿéµï¼Œä½†æ˜¯æƒ³åˆ°å¤§éƒ¨åˆ†æƒ…æ³ä¸æœƒè®Šå‹•ï¼Œå°±ä¸åŠ äº†ï¼Œåæ­£åœ¨ç³»çµ±åˆ—åœ–ç¤ºæŒ‰å³éµå¯ä»¥å¾ˆæ–¹ä¾¿çš„æš«åœã€‚
 
 GroupAdd, editor, ahk_exe thunderbird.exe
 GroupAdd, editor, ahk_exe notepad++.exe
@@ -21,7 +21,7 @@ GroupAdd, editor, ahk_exe ApplicationFrameHost.exe  ;EDGE
 #IfWinActive, ahk_group editor
 
 ;; =============================
-;; §Ö³tÁäÁ`ªí
+;; å¿«é€Ÿéµç¸½è¡¨
 ;; C-p	Previous line (move up)
 ;; C-n	Next line (move down)
 ;; C-f	Forward one character (move right) Note: conflicts with normal "find" shortcut
@@ -33,32 +33,32 @@ GroupAdd, editor, ahk_exe ApplicationFrameHost.exe  ;EDGE
 ;; C-<	Start of page
 ;; C->	End of page
 
-;; C-/	Undo ÁÙ­ì
+;; C-/	Undo é‚„åŸ
 ;; C-d	Delete character after cursor
 ;; M-d	Delete word after cursor
-;; C-h   §R°£«e¤@­Ó¦r¤¸
-;; M-h  §R°£«e¤@­Ó¦r
-;; C-k	Kill line  ¦b§R°£¹C¼Ğ«á­±ªº¦r¦ê
-;; M-k   copy line ½Æ»s¦æ
+;; C-h   åˆªé™¤å‰ä¸€å€‹å­—å…ƒ
+;; M-h  åˆªé™¤å‰ä¸€å€‹å­—
+;; C-k	Kill line  åœ¨åˆªé™¤éŠæ¨™å¾Œé¢çš„å­—ä¸²
+;; M-k   copy line è¤‡è£½è¡Œ
 ;; C-w	Cut region
 ;; M-w	Copy region
-;; C-y	Paste (no kill ring, so don¡¦t get full Emacs yank ability)
+;; C-y	Paste (no kill ring, so donâ€™t get full Emacs yank ability)
 
-;; M-a  ¥ş¿ï
-;; C-r    ·j´M
+;; M-a  å…¨é¸
+;; C-r    æœå°‹
 
-;; C-j   ¤U¤@¦æ¨Ã¥BÁY±Æ 
-;; C-m   Return / Enter / ¤U¤@¦æ
-;; C-o   ´¡¤J¤@¦æ
+;; C-j   ä¸‹ä¸€è¡Œä¸¦ä¸”ç¸®æ’ 
+;; C-m   Return / Enter / ä¸‹ä¸€è¡Œ
+;; C-o   æ’å…¥ä¸€è¡Œ
 
-;; C-g   ESC ¡]¨ú®ø¡^
-;; C-q   Alt+F4¡]Â÷¶}¡^
+;; C-g   ESC ï¼ˆå–æ¶ˆï¼‰
+;; C-q   Alt+F4ï¼ˆé›¢é–‹ï¼‰
 
-;; ¼ÒÀÀ·Æ¹« ¥kÃäªºWin+W/S/A/D  => ¤W¤U¥ª¥k¡A¥kÃäªºWin+Q/E => ¥ª¥kÁä
+;; æ¨¡æ“¬æ»‘é¼  å³é‚Šçš„Win+W/S/A/D  => ä¸Šä¸‹å·¦å³ï¼Œå³é‚Šçš„Win+Q/E => å·¦å³éµ
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;  ²¾°Ê   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;  ç§»å‹•   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-; ¥ª¥k
+; å·¦å³
 ; Ctrl+B - Character backward
 ^b::
   Send, {Left %numericPrefix% }
@@ -87,7 +87,7 @@ GroupAdd, editor, ahk_exe ApplicationFrameHost.exe  ;EDGE
   ctrlXPrefix = 0
   return
 
-; ¤W¤U
+; ä¸Šä¸‹
 ; Ctrl+P - Line up
 ^p::
   Send, {Up %numericPrefix% }
@@ -103,7 +103,7 @@ GroupAdd, editor, ahk_exe ApplicationFrameHost.exe  ;EDGE
   return
 ;^n:: SendAndClearNumericArg("{Down " . numericPrefix . "}", numericPrefix)
 
-; ²¾°Ê¥y­º¥y§À
+; ç§»å‹•å¥é¦–å¥å°¾
 ; Ctrl+A - Start of line
 ^a::
   Send, {Home}
@@ -118,7 +118,7 @@ GroupAdd, editor, ahk_exe ApplicationFrameHost.exe  ;EDGE
   numericPrefix = 1
   return
 
-;; ¤å³¹³Ì¶}ÀY/³Ìµ²§À
+;; æ–‡ç« æœ€é–‹é ­/æœ€çµå°¾
 ; Shift+Alt+, - Start of document
 +!,::
   Send, ^{Home}
@@ -133,7 +133,7 @@ GroupAdd, editor, ahk_exe ApplicationFrameHost.exe  ;EDGE
   ctrlXPrefix = 0
   return
   
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;  §R°£  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;  åˆªé™¤  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
 
 ; Ctrl+D - Delete character forward
 ^d::
@@ -163,7 +163,7 @@ GroupAdd, editor, ahk_exe ApplicationFrameHost.exe  ;EDGE
   ctrlXPrefix = 0
   return
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;   ·j´M    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;   æœå°‹    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Ctrl+R - Search 
 ^r::
 {
@@ -172,7 +172,7 @@ GroupAdd, editor, ahk_exe ApplicationFrameHost.exe  ;EDGE
   Return
 }
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; °Å¤U/½Æ»s/¶K¤W/ÁÙ­ì     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; å‰ªä¸‹/è¤‡è£½/è²¼ä¸Š/é‚„åŸ     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Ctrl+W - Cut
 ^w::
   Send, ^{x}
@@ -201,13 +201,13 @@ GroupAdd, editor, ahk_exe ApplicationFrameHost.exe  ;EDGE
   ctrlXPrefix = 0
   return 
 
-;;;;;;;;;;;;;;;;;;;;;; ¥ş¿ï ;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;; å…¨é¸ ;;;;;;;;;;;;;;;;;;;;
 !a::
 Send, ^a ; select all text with 'control + a'
 return
 
 
-;;;;;;;;;;;;;;;;;;;;;; ½Æ»s¦æ §R°£¦æ ;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;; è¤‡è£½è¡Œ åˆªé™¤è¡Œ ;;;;;;;;;;;;;;;;;;;;
 
 
 ;;;;;;;; Ctrl+K - Kill Line
@@ -244,7 +244,7 @@ newline_and_indent()
 ^o::
 Send {HOME}+{Return}{Up}
 
-;;;;;;;;;;;;;;;;;;;; ¨ú®ø / Â÷¶}  ;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;; å–æ¶ˆ / é›¢é–‹  ;;;;;;;;;;;;;;;;;
 ^g::
 {
 Send {ESC}
@@ -259,26 +259,25 @@ global is_pre_x = 0
 Return
 }
 
-;;;;;;;;;;;;;;;;;;;; ¼ÒÀÀ·Æ¹« ;;;;;;;;;;;;;;;;;
-; Marcus Friday
-;; ¥Îµøµ¡Áä·í§@§Ö³tÁä¡AWin+D ªº¦^¨ì®à­±·|³QÂĞ»\
-;;  #«e­± < ¥Nªí¥ªµøµ¡Áä¡A >¥Nªí¥kµøµ¡Áä
-;; R «e­±ªº¼Æ¦r¥Nªí³t«×¡A1 ³Ì§Ö¡A100 ³ÌºC
+;;;;;;;;;;;;;;;;;;;; æ¨¡æ“¬æ»‘é¼  ;;;;;;;;;;;;;;;;;
+;; ç”¨è¦–çª—éµç•¶ä½œå¿«é€Ÿéµï¼ŒWin+D çš„å›åˆ°æ¡Œé¢æœƒè¢«è¦†è“‹
+;;  #å‰é¢ < ä»£è¡¨å·¦è¦–çª—éµï¼Œ >ä»£è¡¨å³è¦–çª—éµ
+;; R å‰é¢çš„æ•¸å­—ä»£è¡¨é€Ÿåº¦ï¼Œ1 æœ€å¿«ï¼Œ100 æœ€æ…¢
 
-;; Ins::Suspend  ;; «ö¤U insert ÅÜ´«¾Ş§@
-;; >#w::MouseMove, 0, -20, 1, R  ;; ¤W
-;; >#s::MouseMove, 0, 20, 1, R   ;;  ¤U
-;; >#a::MouseMove, -20, 0, 1, R  ;; ¥ª
-;; >#d::MouseMove, 20, 0, 1, R	;; ¥k
-;; >#q::Send, {LButton}  ;; ¥ªÁä
+;; Ins::Suspend  ;; æŒ‰ä¸‹ insert è®Šæ›æ“ä½œ
+;; >#w::MouseMove, 0, -20, 1, R  ;; ä¸Š
+;; >#s::MouseMove, 0, 20, 1, R   ;;  ä¸‹
+;; >#a::MouseMove, -20, 0, 1, R  ;; å·¦
+;; >#d::MouseMove, 20, 0, 1, R	;; å³
+;; >#q::Send, {LButton}  ;; å·¦éµ
 ;; Return
-;; >#e::Send, {RButton} ;;  ¥kÁä
+;; >#e::Send, {RButton} ;;  å³éµ
 ;; Return
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; ¤W¤@­¶/¤U¤@­¶
+;; ä¸Šä¸€é /ä¸‹ä¸€é 
 ; Ctrl+V - Page down
 ;^v::
 ;  Send, {PgDn}
