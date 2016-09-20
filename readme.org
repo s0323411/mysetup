@@ -1,15 +1,15 @@
 因為學習使用 Emacs，對於其他程式無法套用基本的快速鍵而感到不方便，後來想到 Auto Hot Key 這個聽說好久卻沒有嘗試過的神器，Google 找到了一些設定好的 Script，修改了一些符合我自己習慣的鍵位，大部分程式都可以享受 Emacs 快速鍵的方便了，真是感謝網路上高手們無私的分享！
 
-檔案是 Copy 下面的設定
+檔案是 Copy 下面網址的設定
 
 https://github.com/usi3/emacs.ahk/blob/master/emacs.ahk
 
 https://github.com/boblu/EmacsEverywhere
 
 
-按下 insert 切換操作
+*按下 insert 切換操作*
 
-快速鍵總表
+*快速鍵總表*
 
 C-p	Previous line (move up)
 
@@ -66,6 +66,4 @@ C-g   ESC （取消）
 
 C-q   Alt+F4（離開）
 
-模擬滑鼠
-
-右邊的Win+W/S/A/D  => 上下左右，右邊的Win+Q/E => 左右鍵
+模擬滑鼠：右邊的Win+W/S/A/D  => 上下左右，右邊的Win+Q/E => 左右鍵
